@@ -157,12 +157,12 @@ export default function Home() {
         <br></br>
         <br></br>
         <img
-          src="https://upload.wikimedia.org/wikipedia/th/b/bb/BMTH_Sempiternal.png"
+          src="https://upload.wikimedia.org/wikipedia/en/7/74/Post_Human_NeX_GEn.png"
           width="350"
           height="320"
           align="left"
         ></img>
-        <font size="4" color="white" align="left">
+        <font size="4" color="white" align="right">
           <pre>
             <br></br>
             <br></br>

@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import './/globals.css';
+import Script from "next/script";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -48,14 +51,12 @@ export default function Home() {
                   </a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <button class="btn btn-outline-success" type="submit">
-                  Sigh in
-                </button>
-                <button class="btn btn-outline-success" type="submit">
-                  Log in
-                </button>
-              </form>
+              <li class="nav-item">
+        <a href="/signup" class="btn btn-outline-dark" tabindex="-1" role="button" aria-disabled="true">Signup</a>
+        </li>&nbsp;
+        <li class="nav-item">
+        <a href="/signin" class="btn btn-outline-dark" tabindex="-1" role="button" aria-disabled="true">Signin</a>
+        </li>&nbsp;
             </div>
           </div>
         </nav>
@@ -81,30 +82,34 @@ export default function Home() {
           ALbum
         </font>
         <br></br>
+        <br></br>
         <div className="row">
-          <div className="col-4 text-center bg-danger p-5">
+          <div className="col-4 text-center p-5">
             <img
               src="https://upload.wikimedia.org/wikipedia/th/b/bb/BMTH_Sempiternal.png"
               width="350"
               height="320"
             ></img>
-            <font size="5">Sempiternal</font>
+             <br></br>
+            <font size="5" color="white">Sempiternal</font>
           </div>
-          <div className="col-md-4 text-center bg-danger p-5">
+          <div className="col-md-4 text-center p-5">
             <img
               src="https://upload.wikimedia.org/wikipedia/en/0/0a/Bring_Me_the_Horizon_Post_Human_Survival_Horror_Cover_Art_2020.jpg"
               width="350"
               height="320"
             ></img>
-            <font size="5">PostHuman: Survival Horror </font>
+             <br></br>
+            <font size="5" color="white">PostHuman: Survival Horror </font>
           </div>
-          <div className="col-md-4 text-center bg-danger p-5">
+          <div className="col-md-4 text-center  p-5">
             <img
               src="https://upload.wikimedia.org/wikipedia/en/7/74/Post_Human_NeX_GEn.png"
               width="350"
               height="320"
             ></img>
-            <font size="5">PostHuman: NeX GEn </font>
+             <br></br>
+            <font size="5" color="white">PostHuman: NeX GEn </font>
           </div>
         </div>
         <br></br>
@@ -114,7 +119,7 @@ export default function Home() {
         <br></br>
         <br></br>
         <div className="row">
-          <div className="col-12 text-center bg-light p-5">
+          <div className="col-12 text-center bg-white p-5">
             <font size="4">
               Bring me The horizon
               <br></br>

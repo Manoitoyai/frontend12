@@ -81,10 +81,9 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font
-              size="5" /* The `color="white"` attribute in HTML is used to specify the color of the
-            text inside the element. In this case, it is setting the color of the
-            text to white. */
+              size="5" 
               color="white"
             >
               suicide season{" "}
@@ -96,6 +95,7 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font size="5" color="white">
               There Is a Hell Believe Me I'Ve Seen It.There Is a
             </font>
@@ -106,6 +106,7 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font size="5" color="white">
               Sempiternal
             </font>
@@ -116,6 +117,7 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font size="5" color="white">
               that the spirit{" "}
             </font>
@@ -126,6 +128,7 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font size="5" color="white">
               PostHuman: Survival Horror
             </font>
@@ -139,6 +142,7 @@ export default function Home() {
               width="350"
               height="320"
             ></img>
+            <br></br>
             <font size="5" color="white">
               PostHuman: NeX GEn{" "}
             </font>
